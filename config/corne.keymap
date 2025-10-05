@@ -414,10 +414,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE  &none  &kp HOME      &kp UP            &kp END        &kp INSERT    &kp PAGE_UP      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none         &kp LEFT_BRACKET
-&none      &none  &kp LEFT      &kp DOWN          &kp RIGHT      &none         &kp PAGE_DOWN    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &kp RIGHT_BRACKET
-&none      &none  &kp LC(LEFT)  &kp CAPSLOCK      &kp LC(RIGHT)  &kp DEL       &kp PRINTSCREEN  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans        &trans
-                                &kp C_SLEEP_MODE  &trans         &kp SPACE     &kp RET          &mo 3         &kp RALT
+&kp GRAVE  &none  &kp HOME      &kp UP        &kp END        &kp INSERT    &kp PAGE_UP      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans        &kp LEFT_BRACKET
+&none      &none  &kp LEFT      &kp DOWN      &kp RIGHT      &none         &kp PAGE_DOWN    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &kp RIGHT_BRACKET
+&kp L      &none  &kp LC(LEFT)  &kp CAPSLOCK  &kp LC(RIGHT)  &kp DEL       &kp PRINTSCREEN  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans        &trans
+                                &kp LEFT_WIN  &trans         &kp SPACE     &kp RET          &mo 3         &kp RALT
             >;
         };
 
